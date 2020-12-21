@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: rgb(41, 41, 70);
+}
+.card{
+
+  width: 845px;
+  height: 2725px;
+  border-radius: 6px;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  box-shadow: 0px 1px 10px 1px #000000;
+  margin-left: 170px;
+
+}
+  
+  .row {
+    display: flex;
+    border:  20px 20px 20px 20px;
+      padding: 50px 50px 0px 50px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    padding: 50px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  .title{
+      text-align: center;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 75px;
+      margin: 0px;
+      
+      color: crimson;
+      font-weight: bolder;
+  }
+ 
+  .title-icon{
+      margin-top: 40px;
+      margin-left: 190px;
+      color: beige;
+      position: absolute;
+
+  }
+.sub-title{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(190, 190, 190);
+      font-weight: bolder;
+      font-size: 25px;
+}
+
+.icon1{
+    color: rgb(54, 54, 51);
+      position: relative;
+      margin-top: 20px;
+}
+.icon2{
+color: rgb(8, 8, 59);
+position: absolute;
+
+}
+.icon3{
+  color: rgb(204, 21, 21);
+  position: relative;
+  
+  }
+  .icon4{
+    color: rgb(5, 27, 53);
+    position: relative;
+    
+    }
+  .icon5{
+      color: rgb(204, 21, 21);
+      position: absolute;
+      
+      margin-left: 50px;
+      
+      }
+      .icon6{
+        color: rgb(5, 27, 53);
+        position: absolute;
+        
+        margin-left: 200px;
+        
+        }
+.col-title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    color: antiquewhite;
+    font-size: 35px;
+    text-align: center;
+    margin: 0px;
+}
+.col-sec{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    color: antiquewhite;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+
+}
+p{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: bold;
+color: antiquewhite;
+font-size: 15px;
+text-align: center;    
+}
